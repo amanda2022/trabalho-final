@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grupo 4 Proz - Home</title>
+
+    <!-- css do projeto -->
+    <link href="css/grupo4.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="nav-header nav_fixar_topo nav_bg_black">
+            <div class="container-fluid">
+                <a class="nav-brand" href="index.html">Grupo 4 - Proz</a>
+            </div>
+            <div class="menu">
+                <ul class="menu-nav">
+                    <li>
+                        <a class="menu-itens" href="index.html">Home</a>
+                    </li>
+                    <li class="dropdown">
+                        <a class="menu-itens dropbtn">Modelos</a>
+                        <ul class="dropdown-content">
+                            <li><a href="fit.html">Fit</a></li>
+                            <li><a href="city.html">City</a></li>
+                            <li><a href="civic.html">Civic</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="menu-item-active" href="contato.html">Fale Conosco</a>
+                    </li>
+                </ul>
+                <form>
+                    <input type="search" class="form-control" placeholder="Buscar...">
+                </form>
+                <div class="text-end">
+                    <a href="signin.html">
+                        <button type="button" class="btn">Login</button>
+                    </a>
+                    <a href="cadastro.html">
+                        <button type="button" class="btn btn-warning">Cadastro</button>
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container col-xl-10 col-xxl-8 px-4 py-5">
+        <div class="row align-items-center g-lg-5 py-5">
+          <div class="col-lg-7 text-center text-lg-start">
+            <h1 class="display-4 fw-bold lh-1 mb-3">Entre em contato conosco</h1>
+            <p class="col-lg-10 fs-4">Nossa agência está aberta de segunda à sábado, das 09 às 17 horas.</p>
+          </div>
+          <div class="col-md-10 mx-auto col-lg-5">
+            <form class="p-4 p-md-5 border rounded-3 bg-light">
+              <div class="form-floating mb-3">
+                <input class="form-control" id="floatingInput" >
+                <label for="floatingInput">31 98765-4321</label>
+              </div>
+              <div class="form-floating mb-3">
+                <input class="form-control" id="floatingPassword" >
+                <label for="floatingPassword">grupo4-talentocloud.com</label>
+              </div>
+              
+              <hr class="my-4">
+            </form>
+          </div>
+        </div>
+      </div>
+
+    <footer>
+        <p id="anoatual"></p>
+    </footer>
+    
+    <script src="scripts/grupo4.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grupo 4 Proz - Home</title>
+
+    <!-- css do projeto -->
+    <link href="css/grupo4.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="nav-header nav_fixar_topo nav_bg_black">
+            <div class="container-fluid">
+                <a class="nav-brand" href="index.html">Grupo 4 - Proz</a>
+            </div>
+            <div class="menu">
+                <ul class="menu-nav">
+                    <li>
+                        <a class="menu-itens" href="index.html">Home</a>
+                    </li>
+                    <li class="dropdown">
+                        <a class="menu-itens dropbtn">Modelos</a>
+                        <ul class="dropdown-content">
+                            <li><a href="fit.html">Fit</a></li>
+                            <li><a href="city.html">City</a></li>
+                            <li><a href="civic.html">Civic</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="menu-itens" href="contato.html">Fale Conosco</a>
+                    </li>
+                </ul>
+                <form>
+                    <input type="search" class="form-control" placeholder="Buscar...">
+                </form>
+                <div class="text-end">
+                    <a href="signin.html">
+                        <button type="button" class="btn">Login</button>
+                    </a>
+                    <a href="cadastro.html">
+                        <button type="button" class="btn btn-warning">Cadastro</button>
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <hr class="featurette-divider">
+
+    <div class="container-form">
+
+    <div class="content">
+    
+        <h2>Formulário de Cadastro</h2>
+        
+
+        <form id="form">
+         
+           <div>
+               <input type="text" placeholder="Digite seu nome" class="inputs required" oninput="nameValidate()">
+               <span class="span-required">deve ter no minimo 6 caracteres</span>
+           </div>
+   
+           <div>
+               <input type="CPF" placeholder="Digite seu cpf" class="inputs required" oninput="CPFValidate()">
+               <span class="span-required">deve ter no maximo 11 digitos</span>
+           </div>
+           <div>
+               <input type="Endereco" placeholder="Digite seu Endereco" class="inputs required">
+               <span class="span-required">digite seu Endereco</span>
+           </div>
+   
+            <div>
+               <input type="Telefone" placeholder="Digite seu telefone" class="inputs required">
+               <span class="span-required">digite um telefone válido</span>
+            </div>
+   
+            <div>
+               <input type="Modelo" placeholder="Digite o modelo do carro" class="inputs required">
+               <span class="span-required">digite o modelo correto</span>
+            </div>
+   
+            <div>
+               <input type="Placa" placeholder="Digite a placa" class="inputs required" oninput="placaValidate()">
+               <span class="span-required">deve ter no minimo 7 caracteres</span>
+            </div>
+   
+            <div>
+               <input type="ano do carro" placeholder="Digite o ano do carro" class="inputs required">
+               <span class="span-required">digite o ano correto</span>
+            </div>
+   
+             <div>
+               <input type="valor" placeholder="informe o valor" class="inputs required">
+               <span class="span-required">digite o valor correto</span>
+               
+              
+             </div>
+               <button type="submit" class="btn">Enviar</button>
+           </div>
+          
+        </form>
+    </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <footer>
+        <p id="anoatual"></p>
+    </footer>
+    
+    <script src="scripts/grupo4.js"></script>
+    <script src="scripts/script.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grupo 4 Proz - Home</title>
+
+    <!-- css do projeto -->
+    <link href="css/grupo4.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="nav-header nav_fixar_topo nav_bg_black">
+            <div class="container-fluid">
+                <a class="nav-brand" href="index.html">Grupo 4 - Proz</a>
+            </div>
+            <div class="menu">
+                <ul class="menu-nav">
+                    <li>
+                        <a class="menu-itens" href="index.html">Home</a>
+                    </li>
+                    <li class="dropdown">
+                        <a class="menu-itens dropbtn">Modelos</a>
+                        <ul class="dropdown-content">
+                            <li><a href="fit.html">Fit</a></li>
+                            <li><a href="city.html">City</a></li>
+                            <li><a href="civic.html">Civic</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="menu-itens" href="contato.html">Fale Conosco</a>
+                    </li>
+                </ul>
+                <form>
+                    <input type="search" class="form-control" placeholder="Buscar...">
+                </form>
+                <div class="text-end">
+                    <a href="signin.html">
+                        <button type="button" class="btn">Login</button>
+                    </a>
+                    <a href="cadastro.html">
+                        <button type="button" class="btn btn-warning">Cadastro</button>
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="form-signin">
+
+        <form>
+          <h1 class="h3 mb-3 fw-normal">Login</h1>
+      
+          <div class="form-floating">
+            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+            <label for="floatingInput"></label>
+          </div>
+          <div class="form-floating">
+            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+            <label for="floatingPassword"></label>
+          </div>
+      
+          <div class="checkbox mb-3">
+            <label>
+              <input type="checkbox" value="remember-me"> Lembrar senha
+            </label>
+          </div>
+          <button class="w-100 btn btn-lg btn-primary" type="submit">Entrar</button>
+        </form>
+  
+          
+      </main>
+
+    <footer>
+        <p id="anoatual"></p>
+    </footer>
+    
+    <script src="scripts/grupo4.js"></script>
+    
+</body>
+</html>

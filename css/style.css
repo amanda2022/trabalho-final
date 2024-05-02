@@ -1,0 +1,45 @@
+
+
+:root{
+    --color-white: #fff;
+    --color-red: #e63636;
+    --color-dark1: #181818;
+    --color-dark2: #1e1e1e;
+    --color-purple1: #9333ff;
+    --color-purple1: indigo;
+
+}
+
+.container-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content{
+    margin: 6px;
+    padding: 2px;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    background-color: rgb(80, 77, 77);
+    padding: 2rem;
+    border-radius: 15px;
+    width: 40%;
+
+    position: ;
+    
+}
+
+.span-required{
+    font-size: 12px;
+    display: none;
+    margin: 2px 0 0 1px;
+    color: var(--color-red);
+}
+
+.inputs{
+    width: 100%;
+    height: calc(1.5rem + 2px);
+    margin-bottom: 2px;
+}
